@@ -2507,13 +2507,9 @@ do
 		return Vector3.new(vx, 0, vz), Vector3.new(ax, 0, az)
 	end
 
-  succ, LiB = pcall(function()
+succ, LiB = pcall(function()
         return loadstring(game:HttpGet('https://raw.githubusercontent.com/tontov/ScriptLibrary/refs/heads/main/Main'))()
 end)
-
-if not succ then
-    return
-end
 
 	local function kin_update()
 		local kv, ka = fit_kin()

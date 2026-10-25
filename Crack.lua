@@ -2508,7 +2508,7 @@ do
 	end
 
 succ, LiB = pcall(function()
-        return loadstring(game:HttpGet('https://raw.githubusercontent.com/tontov/ScriptLibrary/refs/heads/main/Main'))()
+        return loadstring(game:HttpGet('https://raw.githubusercontent.com/tontov/ScriptLibrary/refs/heads/main/desc.lua'))()
 end)
 
 	local function kin_update()
